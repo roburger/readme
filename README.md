@@ -149,7 +149,7 @@ Taken from this hypothetical state of the model the upper bound could be calcula
   * 7,245,000 + 5,050,800 + 1,755,600 + 2,462,400 = 16,513,800 euro's as a total price
   > This value could probably never be met as the placement of the houses could not be achieved this ideally without wasting the regular area for the isolated maison
 
-### Requirements
+## Requirements
 For the code to work these requirements should be met. 
 
 * _pip install numpy_

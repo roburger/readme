@@ -10,7 +10,7 @@ After the random algorithm it was clear that the ideal situation was not met. Wh
 ### How does it work
 The algorithm is almost the same as the random algorithm. The price calculation and the way of placing is still the same. However, in the main a new variable is added, the random_range variable. This variable shows the amount of times you want to place a single family house. For example, if you want to do this 10 times. Every house will be 10 times randomly placed with each an unique price. The one with the highest price of these 10 will be saved and added in the grid. 
 
-#### How can you use it 
+### How can you use it 
 To use the algorithm you need to choose the house-variant (20/40/60), the neighbourhoodtype (1/2/3) and the random_range (amount of times you want to place a house). Also, you need to choose the amount of runs you want the whole algorithm to run. From these runs the mean and max will be shown in the terminal. The neigbourhood with the highest price will be visualised and a boxplot of all the runs will be shown.
 
 ### Results

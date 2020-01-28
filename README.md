@@ -41,7 +41,7 @@ It is our task to create the most profitable outcome possible. In order to do th
 
 4. [Main algorithm](https://github.com/Stijnantoine99/theorie/tree/master/code/algoritmes/main_algorithm)
  
-   * The main algorithm is an combination between the greedy and move algorithm
+   * The main algorithm is a combination of the greedy and move algorithm
  
 ### The algorithms
 

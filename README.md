@@ -16,7 +16,7 @@ Every neighbourhood is on an area of land with a depth of 180 meters and a width
 
 All the houses have different prices and obligatory free space around. A single family house has a value of €285.000,- and needs 2 meters of obligatory free space. For every extra meter, the value of the house increases with 3%. A bungalow has a value of €399.000,- it is obligated to have at least 3 meters of free space around it. For every extra meter, the value increases with 4%. The maison has a value of €610.000,- and needs 6 meters of obligatory space. For every extra meter, the value of the house increases with 6%. The obligatory free space of the houses need to be within the neighbourhoods area but it is able to 'cross' the water.
 
-### House table
+### House Table
 | House type/features 	| Size (width x depth) 	| Obligatory space in meters 	| Price in euro's 	| Price increasement 	|
 |---------------------	|---------------------	|----------------------------	|-----------------	|--------------------	|
 | Single family home  	| 8 x 8               	| 2                          	| 285.000         	| 3%                 	|
@@ -37,17 +37,22 @@ It is our task to create the most profitable outcome possible. In order to do th
 
 3. [Move algorithm](https://github.com/Stijnantoine99/theorie/tree/master/code/algoritmes/move_algorithm)
 
-   * The move algorithm will move the houses after placing and searches for the highest price possible. It will find an equilibrium.
+   * The move algorithm will move the houses after placing and searches for the highest price possible. it will find an equilibrium.
 
 4. [Main algorithm](https://github.com/Stijnantoine99/theorie/tree/master/code/algoritmes/main_algorithm)
  
    * The main algorithm is a combination of the greedy and move algorithm
+
+5. [Simulated Annealing algorithm](https://github.com/Stijnantoine99/theorie/tree/master/code/algoritmes/simulated_annealing_algorithm.py)
  
+   * The simulated annealing algorithm will move the houses like the move algorithm, but will initiate simulated annealing (check for bigger random steps) if possible.
+
+
 ### Algorithms
 
-Algorithms are made to create the best possible way to place the houses in every neighbourhood. Every algorithm is different and are therefore hard to compare. However, every algorithm has a method to place the houses and a method to calculate the total price. In the table below we have tried to quantify the amount of steps every algorithm has to take in the place and price method.
+Algorithms are made to create the best possible way to place the houses in every neighbourhood. Every algorithm is different and are therefore hard to compare. However every algorithm has a method to place the houses and a method to calculate the total price. In the table below we have tried to quantify the amount of steps every algorithm has to take in the place and price method.
 
-__Variables__
+#### Variables
 We have made use of some variables which are distinguishable in our algorithms. All these variables affect the running time of a specific algorithm. We have tried to characterize the variables in all our algorithms and these are presented below.
 
 * House-variant = 20/40/60
@@ -149,10 +154,9 @@ Taken from this hypothetical state of the model the upper bound could be calcula
   * 7,245,000 + 5,050,800 + 1,755,600 + 2,462,400 = 16,513,800 euro's as a total price
   > This value could probably never be met as the placement of the houses could not be achieved this ideally without wasting the regular area for the isolated maison
 
-## Requirements
+### Requirements
 For the code to work these requirements should be met. 
 
 * _pip install numpy_
 * _pip install matplotlib_
-
 

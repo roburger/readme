@@ -10,7 +10,7 @@ To acieve the best possible outcome, the algorithms from before where combined t
 ### How does it work
 Every house will be placed random_range amount of times. Then, the location with the highest price will be saved and selected. After that, all the houses are placed and the move function will look for every house if there is a better option surrounding it. If so, the house will move to this direction. This will happen for every house and if there is not a better option for a house the house will remain on its position. The houses will keep moving untill all the houses do not have a better option. The better option doesn't have to be better for the houseprice of the selected house. The best option is where the total price of the field is the highest. 
 
-#### How can you use it
+### How can you use it
 To use the algorithm it is necessary to choose the house-variant (20/40/60), the neighbourhoodtype (1/2/3), the random_range and the amount of runs. This will create a gridmap with all the placed houses. After the placing every house will move with the move function. When the houses can not increase the price with moving the algorithm will end. Based on the amount of runs the algorithm will start over. After all the runs the max and mean price will be shown. The neighbourhood with the highest price will be visualized and a boxplot will appear. 
 
 ### Results 
